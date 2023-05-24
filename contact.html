@@ -2,6 +2,12 @@
 <html>
     <head>
         <title>Contact us</title>
+        <script>
+            function showAlert() {
+              alert("Submit button clicked!");
+            }
+          </script>
+        
     </head>
 
     <style>
@@ -26,6 +32,7 @@
             width: 100%;
             margin: auto;
             padding-left: 35%;
+            color: azure;
             
         }
 
@@ -60,7 +67,7 @@
             <textarea rows="5" cols="30" name="Message" class="feilds">
             </textarea><br><br>
 
-            <input type="submit" value="Submit Message" style="width:375px ;text-align: center;background-color: rgb(0, 102, 255);" >
+            <input type="submit" value="Submit Message" style="width:375px ;height: 5vh; color:azure; center;background-color: rgb(0, 102, 255);" onclick="showAlert()" >
         </form>
         
     </body>
